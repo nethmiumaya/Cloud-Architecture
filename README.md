@@ -18,7 +18,7 @@ This project demonstrates cloud-enabled deployment in action using AWS and Googl
 
 ## License
 
-This project is licensed under the [MIT License]([https://opensource.org/licenses/MIT](https://github.com/nethmiumaya/Cloud-Architecture?tab=MIT-1-ov-file#MIT-1-ov-file)).
+This project is licensed under the [MIT License]([https://opensource.org/licenses/MIT](https://github.com/nethmiumaya/Cloud-Architecture?tab=MIT-1-ov-file#MIT-1-ov-file).
 
 ---
 
