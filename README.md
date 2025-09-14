@@ -1,52 +1,24 @@
-# Cloud Enabled Deployment In Action with AWS
 
-This repository contains four projects:
+# Cloud Architecture
 
-- course-service (Spring Boot + MySQL)
-- student-service (Spring Boot + MongoDB)
-- media-service (Spring Boot + Local file storage, can be extended to S3/MinIO)
-- frontend-app (React + TypeScript)
+This project demonstrates cloud-enabled deployment in action using AWS and Google Cloud Platform (GCP). It includes a Java Spring Boot backend, React frontend, and integrates with cloud-hosted MySQL databases. The repository showcases best practices for cloud architecture, deployment automation, and service integration.
 
-## Backend Services
+## Features
 
-### 1. course-service
-- Entity: Course(id, name, duration)
-- Endpoints:
-  - GET /courses
-  - GET /courses/{id}
-  - POST /courses
-  - DELETE /courses/{id}
-- Default port: 8081
-- Configure MySQL settings
+- Java Spring Boot microservices
+- React frontend application
+- Maven and npm build systems
+- Cloud-enabled deployment for AWS and GCP
+- MySQL database integration
+- Secure configuration management
 
-### 2. student-service
-- Document: Student(registrationNumber, fullName, address, contact, email)
-- Endpoints:
-  - GET /students
-  - GET /students/{id}
-  - POST /students
-  - DELETE /students/{id}
-- Default port: 8082
-- Configure MongoDB settings
+## Project work & Resources
 
-### 3. media-service
-- Resource: files
-- Endpoints:
-  - POST /files (multipart/form-data: file)
-  - GET /files (list)
-  - GET /files/{id} (fetch)
-  - DELETE /files/{id} (delete)
-- Default port: 8083
-- Uses local disk storage at `./data/media` by default (override with env var `MEDIA_STORAGE_DIR`).
+- [Project Video and Related Work](https://drive.google.com/file/d/1y9eOQ9f11pzNjXEKLypOeVkA-vbRAQ6Z/view?usp=drive_link)
 
-## Frontend (frontend-app)
-- React + TypeScript + MUI + Axios + Vite app with 3 sections: Courses, Students, Media
-- Scripts:
-  - npm run dev (Vite dev server)
-  - npm run build (TypeScript build + Vite build)
-  - npm run preview (Preview built app)
+## License
 
-## Build
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
-- Backend: run `mvn -q -e -DskipTests package` at repo root to build services.
-- Frontend: run `npm install` then `npm run dev` inside `frontend-app`.
+---
+
