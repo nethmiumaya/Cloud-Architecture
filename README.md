@@ -1,4 +1,8 @@
 
+👤 **Nethmi Umaya**
+🎓 **Student ID: 2301682003**
+📧 **Email: [umayagk@gmail.com]([mailto:umayagk@gmail.com](https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox))**
+
 # Cloud Architecture
 
 This project demonstrates cloud-enabled deployment in action using AWS and Google Cloud Platform (GCP). It includes a Java Spring Boot backend, React frontend, and integrates with cloud-hosted MySQL databases. The repository showcases best practices for cloud architecture, deployment automation, and service integration.
